@@ -10,7 +10,7 @@ public class AQExample {
 	    public static void enqueueMessage(String message) {
 	        Connection connection = null;
 	        CallableStatement callStmt = null;
-	     int a=0;
+	     
 	        try {
 	            // Establish connection
 	            connection = DriverManager.getConnection("jdbc:oracle:thin:@//localhost:1521/orcl", "system", "orcl");
